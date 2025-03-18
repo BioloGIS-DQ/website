@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="spa">
+<html lang="es">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,24 +10,24 @@
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 
-        <meta name="author" content="Didier A. Quimbay-Galindo" />
+        <meta name="author" content="'Didier Alonso Quimbay-Galindo'" />
 
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="Qgis, OSGEO4W, instalación, guía paso a paso, tutorial, instrucciones, Tutoriales/Guías, " />
+<meta name="keywords" content="Qgis, BioloGIS, About us🌎, " />
 
-<meta property="og:title" content="Instalando Qgis con OSGeo4W "/>
-<meta property="og:url" content="./instalando-qgis-con-osgeo4w-es.html" />
-<meta property="og:description" content="Cómo instalar Qgis usando OSGeo4W sobre la web" />
+<meta property="og:title" content="Acerca de BioloGIS "/>
+<meta property="og:url" content="./acerca-de-biologis.html" />
+<meta property="og:description" content="Home de BioloGIS: Herramientas esenciales GIS para biólogos y biólogas" />
 <meta property="og:site_name" content="BioloGIS" />
-<meta property="og:article:author" content="Didier A. Quimbay-Galindo" />
-<meta property="og:article:published_time" content="2025-03-13T10:17:00-05:00" />
-<meta property="og:article:modified_time" content="2025-03-13T10:17:00-05:00" />
-<meta name="twitter:title" content="Instalando Qgis con OSGeo4W ">
-<meta name="twitter:description" content="Cómo instalar Qgis usando OSGeo4W sobre la web">
+<meta property="og:article:author" content="'Didier Alonso Quimbay-Galindo'" />
+<meta property="og:article:published_time" content="2025-03-12T17:30:00-05:00" />
+<meta property="og:article:modified_time" content="2025-03-12T00:00:00-05:00" />
+<meta name="twitter:title" content="Acerca de BioloGIS ">
+<meta name="twitter:description" content="Home de BioloGIS: Herramientas esenciales GIS para biólogos y biólogas">
 
-        <title>Instalando Qgis con OSGeo4W  · BioloGIS
+        <title>Acerca de BioloGIS  · BioloGIS
 </title>
 
 
@@ -68,8 +68,8 @@
 <div class="row-fluid">
     <header class="page-header span10 offset2">
         <h1>
-            <a href="./instalando-qgis-con-osgeo4w-es.html">
-                Instalando Qgis con OSGeo4W
+            <a href="./acerca-de-biologis.html">
+                Acerca de BioloGIS
             </a>
         </h1>
     </header>
@@ -78,22 +78,75 @@
 <div class="row-fluid">
         <div class="span8 offset2 article-content">
             
-            <h2>¿Cómo instalar Qgis usando OSGeo4W?</h2>
-<p>Instalar Qgis es realmente sencillo, existen mutliples maneras der ealizarlo. Sin embargo, cada una presenta sus ventajas y desventajas.</p>
-<h3>Instalando Qgis como un binario (Stand-alone)</h3>
-<p>Desde la <a href="#">página de descargas oficial de Qgis</a> puedes obtener un instalador (PC/MAC) que tiene todo lo necesario para correr Qgis en tu maquina. Basta con solo correrlo, espcificar donde instalar y listo! Tienes Qgis en tu equipo!</p>
-<p>Sin embargo, esta forma de instalación te instala una <em>versión específica de Qgis</em>, la que esté en el momento.</p>
-<h3>Las versiones de Qgis</h3>
-<p>Si no conocías, Qgis es un software que se actualiza constatemetne, gardicas a los esfuerzos de umutpies dearroladores y usuairoas que ocnstamtne buscan m¿afianr y mejorar esta herraminta.</p>
-<p>Cada cierto tiempo una nueva versión de Qgis, con nuevas ajutes, herramitnas nuevas, o parches de correcion de errores es publicada, y queda abierta la posibilidad de que esta trabjando en una versión que puede genrar un error o este desactualizada para lo que requieras. 👀 No es neceario tener la última version de Qgis para poder trabajar muy bien en el software, pero quizás las features que este buscanod quizá aun o esten impentadas en la verison que has instalado.</p>
-<p>Un amanera de ytrabajr 'seguro' e strabajr con la vrsión de soprte extendido (Long term Reosltion - LTR) que esta optimizada para evyatr errores y estará constanetmente sportada y cudado duante 2 años.</p>
-<h3>EL Problema de mantener todo actualizado</h3>
-<p>Si isntalaste algua vez Qgis con los Standalnoes binarios, no tienes un amnera directa para catulizar a una nueva version de Qgis. La versión te advertirá que hay una nueva versión, pero si la desargas e instals de la misma manera, tendras evetvas <em>dos copias de Qgis distintas</em>, para muchos esto no es lo ideal.</p>
-<p>Aparte de todo, si tu flujo de trabajo invlucra multiples <em>complenetos y plug-ins</em>, en ocasiones las libreias o compemtenso tambien cambian de versión y puede que temrines con mas de una version del mismo osfatar, o generes combinacions incompatibles entre sí.</p>
-<p>Para los que desean siempre trabajar con la <em>última versión</em> puede sonar confuso y terrible, pero, realemnte es un problema que tiene fácil solución.</p>
-<h3>La solución: Instalador OSGeo4W</h3>
-<p>Preeendo las situaciones anterioes exite una manera dianlcim q epmite trajar e instalr Qgis y el osftare compalentario de manera muhca mas dinamica y de facil amdinistracion, permitiendo eliminar o retroceder a versiones antiguas del software si lo requires.</p>
-<p>El <a href="#">instaldor OSGeo4W</a> es un isnalador desarolad por la OSgeo la rmepsa que creó, patrpcina y aetneine soflate geoepcaisl libre (Cömo Qgis, GDAL, PostGIS, entre muchos otros)</p>
+            <h1 id="de-que-trata-este-blog">¿De qué trata este blog?<a class="headerlink" href="#de-que-trata-este-blog" title="Permanent link"> </a></h1>
+<p>El blog de <em>BioloGIS</em> esta pensado como un espacio de aprendizaje y descubrimiento para todos. Este es un sitio que me permite compartir, enseñar y dialogar con personas interesadas como tú sobre el mundo de los Sistemas de Información Geográfica (SIG). Este será un espacio de aprendizaje que permita aterrizar con ejemplo concretos, prácticos, pero sobre todo, sencillos para que la gente pueda aprender. Todo lo anterior, con el ánimo de compartir conocimiento, experiencias y saberes que considero son esenciales para los biólogos y profesionales de hoy en día. ¡Bienvenido y Bienvenida 😁!</p>
+<h1 id="para-quien-es-este-blog">¿Para quién es este blog?<a class="headerlink" href="#para-quien-es-este-blog" title="Permanent link"> </a></h1>
+<p>Este blog está dirigido a interesados en el mundo SIG, desde principiantes hasta veteranos. El mundo GIS es tan grande que permite el encuentro e interacción de múltiples disciplinas.</p>
+<h1 id="donde-puedo-trabajar-con-gis">¿Dónde puedo trabajar con GIS?<a class="headerlink" href="#donde-puedo-trabajar-con-gis" title="Permanent link"> </a></h1>
+<p>Hoy día hay varias soluciones de software libre y abierto (Open source) que permiten explorar los GIS de manera asequible. Precisarás de una computadora y buena voluntad. Las especificaciones técnicas de cada equipo son muy variadas, más en mi experiencia, tareas elementales GIS usando sets de datos no tan grandes, pueden ejecutarse bien incluso en equipos muy modestos y algo antiguos.</p>
+<h1 id="que-opciones-de-software-gis-existen">¿Qué opciones de software GIS existen?<a class="headerlink" href="#que-opciones-de-software-gis-existen" title="Permanent link"> </a></h1>
+<p>Existen múltiples aplicaciones, librerías y soluciones de software para manejar y procesar datos GIS. Algunas creadas para tareas multipropositos generales, y otras para tareas y aplicaciones específicas. Algunas de las principales son:</p>
+<h4 id="software-libre">Software Libre<a class="headerlink" href="#software-libre" title="Permanent link"> </a></h4>
+<ul>
+<li><a class="ampl" href="https://qgis.org/project/overview/">QGIS</a></li>
+<li><a href="https://grass.osgeo.org/">GRASS*</a></li>
+<li><a href="https://sourceforge.net/projects/saga-gis/">SAGA GIS*</a></li>
+<li><a href="https://gdal.org/en/stable/download.html">GDAL*</a></li>
+<li><strong>Python</strong><ul>
+<li><a href="https://geopandas.org/en/stable/">Geopandas - Datos vectoriales</a></li>
+<li><a href="https://rasterio.readthedocs.io/en/stable/">Rasterio - Datos ráster</a></li>
+<li><a href="https://python-visualization.github.io/folium/latest/">Folium - Point cloud</a></li>
+<li><a href="https://ipyleaflet.readthedocs.io/en/latest/">ipyleaflet - Mapas interactivos en web</a></li>
+<li><a href="https://pypi.org/project/lidar/">lidar - Manejo de datos Lidar</a></li>
+<li>entre muchas más.</li>
+</ul>
+</li>
+<li><strong>R</strong><ul>
+<li><a href="">geotools</a></li>
+</ul>
+</li>
+<li><a href="https://earthengine.google.com/platform/">Google Earth Engine^ - GEE</a></li>
+</ul>
+<h4 id="software-propietario">Software Propietario<a class="headerlink" href="#software-propietario" title="Permanent link"> </a></h4>
+<ul>
+<li><a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/buy">ArcGIS Pro</a></li>
+<li><a href="https://desktop.arcgis.com/es/desktop/index.html">ArcMap</a></li>
+<li><a href="">CartoDB</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Símbolo</th>
+<th style="text-align: left;">Nota</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">*</td>
+<td style="text-align: left;">Paquetes y librearías embebidos dentro de otras aplicaciones</td>
+</tr>
+<tr>
+<td style="text-align: center;">^</td>
+<td style="text-align: left;">Requiere registro y creación de una cuenta</td>
+</tr>
+</tbody>
+</table>
+<p>Dentro de la gran diversidad de librerías y paquetes, algunos de estos se han integrado dentro flujos de procesamiento, infraestructura y ecosistemas de otros software.</p>
+<p><em>Por ejemplo: Qgis integra a GDAL dentro de su ecosistema.</em></p>
+<h1 id="donde-puedo-conseguir-qgis">¿Dónde puedo conseguir Qgis?<a class="headerlink" href="#donde-puedo-conseguir-qgis" title="Permanent link"> </a></h1>
+<p>El proyecto Qgis esta disponible en línea listo para descargar a distintas plataformas y Sistemas operativos al visitar el <a href="https://qgis.org/project/overview/">sitio web oficial</a>. Qgis es un proyecto que se <a href="https://qgis.org/resources/roadmap/">actualiza constantemente</a> gracias al los múltiples esfuerzos de muchos desarrolladores, usuarios y contribuidores alrededor del mundo. Hay muchas maneras de instalar Qgis en un equipo, más podrás encontrar dos distribuciones típicas.</p>
+<h2 id="instaladores-dedicados-de-qgis">Instaladores dedicados de Qgis:<a class="headerlink" href="#instaladores-dedicados-de-qgis" title="Permanent link"> </a></h2>
+<p>Puedes encontrar los instaladores en la <a href="https://qgis.org/download/">página oficial del proyecto</a>. Recuerda que existe versiones:</p>
+<ul>
+<li>Última versión (Latest version) estable publicada</li>
+<li>Versión estable de largo plazo - Long Term Version - LTR</li>
+</ul>
+<p>Dependiendo de tus necesidades y familiaridad con el software puedes escoger la que más te convenga.</p>
+<h2 id="instaladores-web-osgeo4w">Instaladores Web (OSGeo4W)<a class="headerlink" href="#instaladores-web-osgeo4w" title="Permanent link"> </a></h2>
+<p>Si necesitas usar Qgis y sus dependencias actualizadas, una buena opción es utilizar el <a href="https://trac.osgeo.org/osgeo4w/">Instalador web de OSGeo4W</a>, de esta manera podrás instalar y actualizar Qgis y sus librerías de manera sencilla y eficaz.</p>
+<p><strong>Nota:
+Esta opción no es recomendada para usuarios muy nuevos</strong>.</p>
+<p>Si quieres saber aprender a usar este instalador mira mí guía al respecto: <a href="{/filename}articles/guide_install_OSGeo4w.md">Instalando Qgis con OSGeo4W</a></p>
 
 
              
@@ -112,24 +165,17 @@
         </div>
         <section id="article-sidebar" class="span2">
             <h4>Published</h4>
-            <time itemprop="dateCreated" datetime="2025-03-13T10:17:00-05:00">jue. 13 marzo 2025</time>
+            <time itemprop="dateCreated" datetime="2025-03-12T17:30:00-05:00">mié. 12 marzo 2025</time>
 
             <h4>Category</h4>
-            <a class="category-link" href="./categories.html#tutorialesguias-ref">Tutoriales/Guías</a>
+            <a class="category-link" href="./categories.html#about-us-ref">About us🌎</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
-                <li><a href="./tags.html#guia-paso-a-paso-ref">guía paso a paso
-</a></li>
-                <li><a href="./tags.html#instalacion-ref">instalación
-</a></li>
-                <li><a href="./tags.html#instrucciones-ref">instrucciones
-</a></li>
-                <li><a href="./tags.html#osgeo4w-ref">OSGEO4W
+                <li><a href="./tags.html#biologis-ref">BioloGIS
+                    <span class="superscript">2</span>
 </a></li>
                 <li><a href="./tags.html#qgis-ref">Qgis
                     <span class="superscript">2</span>
-</a></li>
-                <li><a href="./tags.html#tutorial-ref">tutorial
 </a></li>
             </ul>
 <h4>Contact</h4>
