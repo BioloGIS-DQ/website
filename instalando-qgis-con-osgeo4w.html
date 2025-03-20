@@ -79,21 +79,33 @@
         <div class="span8 offset2 article-content">
             
             <h2 id="como-instalar-qgis-usando-osgeo4w">¿Cómo instalar Qgis usando OSGeo4W?<a class="headerlink" href="#como-instalar-qgis-usando-osgeo4w" title="Permanent link"> </a></h2>
-<p>Instalar Qgis es realmente sencillo, existen mutliples maneras der ealizarlo. Sin embargo, cada una presenta sus ventajas y desventajas.</p>
+<p>Instalar Qgis es realmente sencillo, existen múltiples maneras de realizarlo. Sin embargo, cada una presenta sus ventajas y desventajas.</p>
 <h3 id="instalando-qgis-como-un-binario-stand-alone">Instalando Qgis como un binario (Stand-alone)<a class="headerlink" href="#instalando-qgis-como-un-binario-stand-alone" title="Permanent link"> </a></h3>
-<p>Desde la <a href="#">página de descargas oficial de Qgis</a> puedes obtener un instalador (PC/MAC) que tiene todo lo necesario para correr Qgis en tu maquina. Basta con solo correrlo, espcificar donde instalar y listo! Tienes Qgis en tu equipo!</p>
+<p>Desde la <a href="https://qgis.org/download/">página de descargas oficial de Qgis</a> puedes obtener un instalador (PC/MAC) que tiene todo lo necesario para correr Qgis en tu maquina. Basta con solo correrlo, especificar donde instalar y listo! Tienes Qgis en tu equipo!</p>
 <p>Sin embargo, esta forma de instalación te instala una <em>versión específica de Qgis</em>, la que esté en el momento.</p>
 <h3 id="las-versiones-de-qgis">Las versiones de Qgis<a class="headerlink" href="#las-versiones-de-qgis" title="Permanent link"> </a></h3>
-<p>Si no conocías, Qgis es un software que se actualiza constatemetne, gardicas a los esfuerzos de umutpies dearroladores y usuairoas que ocnstamtne buscan m¿afianr y mejorar esta herraminta.</p>
-<p>Cada cierto tiempo una nueva versión de Qgis, con nuevas ajutes, herramitnas nuevas, o parches de correcion de errores es publicada, y queda abierta la posibilidad de que esta trabjando en una versión que puede genrar un error o este desactualizada para lo que requieras. 👀 No es neceario tener la última version de Qgis para poder trabajar muy bien en el software, pero quizás las features que este buscanod quizá aun o esten impentadas en la verison que has instalado.</p>
-<p>Un amanera de ytrabajr 'seguro' e strabajr con la vrsión de soprte extendido (Long term Reosltion - LTR) que esta optimizada para evyatr errores y estará constanetmente sportada y cudado duante 2 años.</p>
+<p>Si no conocías, Qgis es un software que se actualiza constantemente, por lo menos una vez al mes, gracias a los esfuerzos de múltiples desarrolladores y usuarios que constantemente buscan afinar y mejorar esta gran proyecto.</p>
+<p>Cada cierto tiempo una nueva versión de Qgis, con nuevos ajustes, herramientas, o parches para corregir errores, es publicada. Cada versión busca mejorar desempeño y calidad de la experiencia con los usuarios en pequeños y grande detalles. Sin embargo, si en tu flujo de trabajo no has requerido de las últimas versiones, y trabajas con una versión que te satisface, con el tiempo puede ocurrir que termines trabajando en una <a href="#">versión que ha quedado sin soporte</a>. Si en algún momento quieres utilizar algún plugins reciente o funcionalidad novedosa, será necesario que actualices tu versión de Qgis. De lo contrario, si fuerzas usar plugins en versiones no soportadas, no hay garantía de que funciones dado que la versión de tu maquina puede no disponer las dependencias requeridas. 👀 No es necesario tener la última versión de Qgis para poder trabajar muy bien, pero si buscas trabajar con las ultimas funcionalidades y estabilidad es esencial mantenerte al día.</p>
+<p>Una manera de ir 'seguro' es trabajar con una versión particular: la versión de soporte extendido (Long Term Resolution - LTR), que está optimizada para estabilidad, evitar errores y estará constantemente soportada y mantenida durante 1 año.</p>
 <h3 id="el-problema-de-mantener-todo-actualizado">EL Problema de mantener todo actualizado<a class="headerlink" href="#el-problema-de-mantener-todo-actualizado" title="Permanent link"> </a></h3>
-<p>Si isntalaste algua vez Qgis con los Standalnoes binarios, no tienes un amnera directa para catulizar a una nueva version de Qgis. La versión te advertirá que hay una nueva versión, pero si la desargas e instals de la misma manera, tendras evetvas <em>dos copias de Qgis distintas</em>, para muchos esto no es lo ideal.</p>
-<p>Aparte de todo, si tu flujo de trabajo involucra múltiples <em>complementos y plugins</em>, en ocasiones las librerías y dependencias con los que trabajan también pueden cambiar de versión y actualizarse, lo que provoca que termines con mas de una versión del mismo software, o generes combinaciones incompatibles entre sí.</p>
-<p>Para los que desean siempre trabajar con la <em>última versión</em> puede sonar confuso y terrible, pero, realemnte es un problema que tiene fácil solución.</p>
+<p>Si instalaste alguna vez Qgis con los instaladores binarios (Standalones), <strong>no tienes una manera directa para actualizar a una nueva versión de Qgis.</strong> Qgis te advertirá que hay una nueva versión disponible, pero si intentas usar el mismo procedimiento con los instaladores dedicados, terminaras por tener <em>dos copias de Qgis distintas</em> en tu maquina. Para muchos usuarios, este no es el escenario deseado.</p>
+<p>Aparte de todo, si tu flujo de trabajo involucra múltiples <em>complementos y plugins</em>, en ocasiones las librerías y dependencias con los que trabajan también pueden cambiar de versión y actualizarse, lo que provoca que termines con mas de una versión del mismo software, o potencialmente generar combinaciones incompatibles entre sí.</p>
+<p>Para los que desean siempre trabajar con la <em>última versión</em> puede sonar confuso y terrible, pero, realmente es un problema que tiene fácil solución.</p>
 <h3 id="la-solucion-instalador-osgeo4w">La solución: Instalador OSGeo4W<a class="headerlink" href="#la-solucion-instalador-osgeo4w" title="Permanent link"> </a></h3>
-<p>Preeendo las situaciones anterioes exite una manera dianlcim q epmite trajar e instalr Qgis y el osftare compalentario de manera muhca mas dinamica y de facil amdinistracion, permitiendo eliminar o retroceder a versiones antiguas del software si lo requires.</p>
-<p>El <a href="#">instaldor OSGeo4W</a> es un isnalador desarolad por la OSgeo la rmepsa que creó, patrpcina y aetneine soflate geoepcaisl libre (Cömo Qgis, GDAL, PostGIS, entre muchos otros)</p>
+<p>Previniendo las situaciones anteriores, existe una manera dinámica que permite instalar Qgis y software complementario (GRASS, SAGA, algunas dependencias) de manera dinámica, sencilla y de fácil administración para actualizaciones. Incluso permitiendo eliminar o retroceder a versiones antiguas si se requiere.</p>
+<p>El <a href="https://trac.osgeo.org/osgeo4w/">instalador OSGeo4W</a> es un instalador web desarrollado por la [Open Source Geospatial Foundation (OSgeo)](https://www.osgeo.org/ la ONG que creó, patrocina y mantiene un conjunto de software geoespacial libre (como Qgis, GRASS GIS, GDAL, PostGIS, GeoServer, OpenLayers, entre muchos otros).</p>
+<p>Utilizar este instalador permite maneter atucxliazado y organizado el fopwatrew geoepacil en tu maquina de una manera seniclla, direacta y sistemátcia. Recomednado para usaurios SIG constnaes. Si bien puede parece complejo su ocnfiguración inicial, en esta guía te mostraré como manejar tus inatakicoens de Qgis a travez de este aplciativo.</p>
+<h1 id="como-instalar-qgis-mediante-osgeo4w">¿Cómo instalar Qgis mediante OSgeo4W?<a class="headerlink" href="#como-instalar-qgis-mediante-osgeo4w" title="Permanent link"> </a></h1>
+<h2 id="descargar-el-instalador-osgeo4w">Descargar el instalador OSgeo4W<a class="headerlink" href="#descargar-el-instalador-osgeo4w" title="Permanent link"> </a></h2>
+<h2 id="abirendo-insltador-primero-pasos">Abirendo Insltador: primero Pasos<a class="headerlink" href="#abirendo-insltador-primero-pasos" title="Permanent link"> </a></h2>
+<h2 id="software-manager-view">Software manager view<a class="headerlink" href="#software-manager-view" title="Permanent link"> </a></h2>
+<h2 id="confrimando-la-instalacion">Confrimando la instalación<a class="headerlink" href="#confrimando-la-instalacion" title="Permanent link"> </a></h2>
+<h2 id="revisando-la-instalacion">Revisando la instalación<a class="headerlink" href="#revisando-la-instalacion" title="Permanent link"> </a></h2>
+<h2 id="ocurre-un-error">¿Ocurre un error?<a class="headerlink" href="#ocurre-un-error" title="Permanent link"> </a></h2>
+<h1 id="administrando-otras-dependencias-y-software-desde-el-instalador-osgeo4w">Administrando otras dependencias y software desde el instalador OSgeo4W<a class="headerlink" href="#administrando-otras-dependencias-y-software-desde-el-instalador-osgeo4w" title="Permanent link"> </a></h1>
+<h2 id="ejemplo-con-plugins-scp-plugin">Ejemplo con PLugins (SCP Plugin)<a class="headerlink" href="#ejemplo-con-plugins-scp-plugin" title="Permanent link"> </a></h2>
+<h2 id="ejemplo-con-grass-gis">Ejemplo con GRASS GIS<a class="headerlink" href="#ejemplo-con-grass-gis" title="Permanent link"> </a></h2>
+<h2 id="ejemplo-con-open-layers">Ejemplo con Open Layers<a class="headerlink" href="#ejemplo-con-open-layers" title="Permanent link"> </a></h2>
 
 
              
@@ -132,9 +144,15 @@
                 <li><a href="./tags.html#tutorial-ref">tutorial
 </a></li>
             </ul>
-<h4>Contact</h4>
+<h4>Contácteme:</h4>
 <div id="sidebar-social-link">
-    <a href="#" title="" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="mailto:cursosbiologis@gmail.com" title="Envíame un correo" target="_blank" rel="nofollow noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" aria-label="Mail" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#328cff"/><path d="m250 186c-46 0-69 35-69 74 0 44 29 72 68 72 43 0 73-32 73-75 0-44-34-71-72-71zm-1-37c30 0 57 13 77 33 0-22 35-22 35 1v150c-1 10 10 16 16 9 25-25 54-128-14-187-64-56-149-47-195-15-48 33-79 107-49 175 33 76 126 99 182 76 28-12 41 26 12 39-45 19-168 17-225-82-38-68-36-185 67-248 78-46 182-33 244 32 66 69 62 197-2 246-28 23-71 1-71-32v-11c-20 20-47 32-77 32-57 0-108-51-108-108 0-58 51-110 108-110" fill="#fff"/></svg>
+    </a>
+    <a href="https://lu.ma/calendar/cal-CL2CdCXmHjboKdl" title="BioloGIS Luma Calendar" target="_blank" rel="nofollow noopener noreferrer">
+        <svg onload="w()" xmlns="http://www.w3.org/2000/svg" aria-label="Calendar" role="img" viewBox="0 0 512 512" font-family="monospace" text-anchor="middle" fill="#667777"><script type="text/ecmascript"><![CDATA[w=()=>{c=0;for (i in e={weekday:"long",month:"short",day:'numeric'}) document.getElementsByTagName('text')[c++].textContent=(new Date).toLocaleString(undefined,{[i]:e[i]})}]]></script><defs><clipPath id="c"><rect width="512" height="512" rx="15%"/></clipPath></defs><g clip-path="url(#c)"><rect width="512" height="512" fill="#dee"/><rect width="512" height="180" fill="#d34"/></g><g id="b"><circle fill="#eab" cx="384" cy="100" r="14" id="a"/><use x="43"/><use x="86"/></g><use y="43"/><text font-size="64" x="256" y="480" id="w">Sunday</text><text fill="#fff" font-size="140" x="140" y="164" id="m">FEB</text><text font-size="256" x="256" y="400" id="d">29</text></svg>
+    </a>
+    <a href="https://lu.ma/calendar/cal-CL2CdCXmHjboKdl" title="" target="_blank" rel="nofollow noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" aria-label="Instagram" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#d43377"/><g fill="none" stroke="#fff" stroke-width="29"><rect height="296" rx="78" width="296" x="108" y="108"/><circle cx="256" cy="256" r="69"/></g><circle cx="343" cy="169" fill="#fff" r="19"/></svg>
     </a>
 </div>

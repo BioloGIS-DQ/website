@@ -1,0 +1,15 @@
+/*BioloGIS Website Custom CSS*/
+
+/*Website general color ECF7EA or E9FFE5 or F4FFF2*/
+/*NavBas Colors: #F2F2F2 or #7a9dc1 #7ac1aa*/
+
+
+
+/*General apperance*/
+
+body {
+  background-color:#F4FFF2;}
+
+.navbar-inner {
+    background-color: #fafafa;
+    background-image: linear-gradient(180deg, #fff, #7ac1aa);}

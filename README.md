@@ -1,5 +1,9 @@
-# BioloGIS blog
 
-Hi there this is the repo for all the code realted to the BioloGIS website - Blog
-MAde with love with Pelican¨and Elegant themes
+# BioloGIS blog Readme
+
+Hi there. This is the repo for all the code and output html files and resources realted to the BioloGIS website - Blog.
+
+All the content was made by me. Implementerd with Pelican and the Elegant Theme.
+
+Made with love
 DQ
